@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 18px;
+
+}
+
+nav div button{
+
+    margin-left: 5px;
+    padding: 8px 10px;
+    background-color:blue;
+    border-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul{
+    display: flex;
+    gap: 35px
+    ;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav div input{
+    border-radius: 10px;
+    padding: 5px;
+}
